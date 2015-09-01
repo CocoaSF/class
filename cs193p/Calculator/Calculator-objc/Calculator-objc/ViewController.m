@@ -18,6 +18,8 @@
 - (IBAction)appendDigit:(UIButton *)sender {
     NSString* digit = [sender currentTitle];
     
+   
+    
     if(_userIsInTheMiddleOfTypingANumber){
         _diaplay.text = [NSString stringWithFormat:@"%@%@",_diaplay.text,digit];
     }

@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false;
-        //operandStack.append(displayValue)
+        //operandStack.append(displayValue) 
         //println("oprendStack = \(operandStack)")
         if let result = brain.pushOperand(displayValue){
             displayValue = result;
@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func operate(sender: UIButton) {
+        
         let operation = sender.currentTitle!
         if userIsInTheMiddleOfTypingANumber {
             enter()
