@@ -8,20 +8,28 @@
 
 import UIKit
 
+protocol FaceViewDataSource : class{
+    func smilinessForFaceView(sender:FaceView) -> Double?
+}
+
+@IBDesignable
 class FaceView: UIView {
 
+    @IBInspectable
     var lineWidth:CGFloat = 3 {
         didSet{
             setNeedsDisplay()
         }
     }
     
+    @IBInspectable
     var scale:CGFloat = 0.9 {
         didSet{
             setNeedsDisplay()
         }
     }
     
+    @IBInspectable
     var faceCenter:CGPoint{
         return convertPoint(center,fromView:superview)
     }
@@ -35,6 +43,24 @@ class FaceView: UIView {
             setNeedsDisplay()
         }
     }
+    
+    func scale(gesture:UIPinchGestureRecognizer){
+        
+        if gesture.state == .Changed
+        {
+            scale *= gesture.scale
+            gesture.scale = 1
+        }
+        
+    }
+    
+    /**
+     * delegate 会被设置到 Controller
+     * 而Controler本身已经持有FaceView的引用,这时就会建立起一个双向引用
+     * 所以,我们需要将dataSource 设置为弱引用 weak,当Controller释放掉FaceView时,
+     * FaceView就不会因为有一个强引用的指针指向Controller而无法释放掉
+    */
+    weak var dataSource:FaceViewDataSource?
     
     private struct Scaling {
         static let FaceRadiusToEyeRadiusRatio: CGFloat = 10
@@ -100,7 +126,7 @@ class FaceView: UIView {
         bezierPathForEye(.Left).stroke()
         bezierPathForEye(.Right).stroke()
         
-        let smiliness = -0.5
+        let smiliness = dataSource?.smilinessForFaceView(self) ?? 0.0
         let smilePath = bezierPathForSmile(smiliness)
         smilePath.stroke()
         
