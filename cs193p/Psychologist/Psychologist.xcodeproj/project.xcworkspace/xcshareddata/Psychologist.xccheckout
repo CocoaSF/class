@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E447180B-C819-41A5-8BEA-CE1BC6DA028C</string>
+	<string>68ED7AD1-B935-46AE-AB14-F297AF769D3D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Happiness</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>74805707D22327F77DB42E0754D6039E8A2A61B3</key>
 		<string>https://github.com/CocoaSF/class.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cs193p/Happiness/Happiness.xcodeproj</string>
+	<string>cs193p/Psychologist/Psychologist.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>74805707D22327F77DB42E0754D6039E8A2A61B3</key>
