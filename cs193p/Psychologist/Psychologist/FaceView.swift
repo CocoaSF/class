@@ -38,7 +38,8 @@ class FaceView: UIView {
         return min(bounds.size.width, bounds.size.height)*0.5*scale
     }
     
-    var color:UIColor = UIColor.blueColor(){
+    @IBInspectable
+    var color:UIColor = UIColor.grayColor(){
         didSet{
             setNeedsDisplay()
         }
