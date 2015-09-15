@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FAFDB821BA6721B00705D11 /* UIViewControllerVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAFDB811BA6721B00705D11 /* UIViewControllerVCL.swift */; };
 		5FF6C8BE1B9D46B700125EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6C8BD1B9D46B700125EEC /* AppDelegate.swift */; };
 		5FF6C8C01B9D46B700125EEC /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF6C8BF1B9D46B700125EEC /* PsychologistViewController.swift */; };
 		5FF6C8C31B9D46B700125EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF6C8C11B9D46B700125EEC /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FAFDB811BA6721B00705D11 /* UIViewControllerVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerVCL.swift; sourceTree = "<group>"; };
 		5FF6C8B81B9D46B700125EEC /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF6C8BC1B9D46B700125EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FF6C8BD1B9D46B700125EEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				5FF6C8BB1B9D46B700125EEC /* Supporting Files */,
 				5FF6C8E11B9D95C100125EEC /* TextViewController.swift */,
 				5FF6C8E31B9D9B2500125EEC /* DiagnosedHappinessViewController.swift */,
+				5FAFDB811BA6721B00705D11 /* UIViewControllerVCL.swift */,
 			);
 			path = Psychologist;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			files = (
 				5FF6C8E21B9D95C100125EEC /* TextViewController.swift in Sources */,
 				5FF6C8C01B9D46B700125EEC /* PsychologistViewController.swift in Sources */,
+				5FAFDB821BA6721B00705D11 /* UIViewControllerVCL.swift in Sources */,
 				5FF6C8DF1B9D5BE300125EEC /* HappinessViewController.swift in Sources */,
 				5FF6C8E41B9D9B2500125EEC /* DiagnosedHappinessViewController.swift in Sources */,
 				5FF6C8BE1B9D46B700125EEC /* AppDelegate.swift in Sources */,
@@ -427,6 +431,7 @@
 				5FF6C8D91B9D46B700125EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FF6C8DA1B9D46B700125EEC /* Build configuration list for PBXNativeTarget "PsychologistTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +440,7 @@
 				5FF6C8DC1B9D46B700125EEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

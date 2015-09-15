@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C6FD5E6A-52CE-46EF-A0D2-4D155E7D5C5F</string>
+	<string>4A6A0709-815C-4CF3-9AE8-23411DBF7684</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Calculator</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>74805707D22327F77DB42E0754D6039E8A2A61B3</key>
 		<string>https://github.com/CocoaSF/class.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>cs193p/Calculator/Calculator-MVC/Calculator.xcodeproj</string>
+	<string>cs193p/ShowSizeClass/ShowSizeClass.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>74805707D22327F77DB42E0754D6039E8A2A61B3</key>
-		<string>../../../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/CocoaSF/class.git</string>
